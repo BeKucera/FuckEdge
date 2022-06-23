@@ -14,7 +14,6 @@ namespace FuckEdge
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ahoj");
 
             if (args.Length == 0)
             {
