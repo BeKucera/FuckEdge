@@ -17,8 +17,8 @@ namespace FuckEdge
 
             if (args.Length == 0)
             {
-                Process.Start("chrome.exe");
-                Environment.Exit(0);
+                Process.Start("https://google.com");
+                return;
             }
 
             string start = "search%3Fq%3D";
